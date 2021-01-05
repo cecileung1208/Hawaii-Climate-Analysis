@@ -67,7 +67,7 @@ The Flask API have the following routes:
   
 ## **3. - Other Useful Analysis**
 
-I have conducted additonal analysis to make the most out of my trip in the [Climate Starter Notebook]https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/climate_starter.ipynb).
+I have conducted additonal analysis to make the most out of my trip in the [Climate Starter Notebook](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/climate_starter.ipynb).
 
 ### **Temperature Analysis I**
 
@@ -119,18 +119,18 @@ The below folders have the following files:
 
 | Folder Name    | File Name |
 | ------------- | ------------- |
-| Unit 10 - SQL_Alchemy Challenge  | [README.md](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/README.md)  |
-|                                  | [app.py](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/app.py) |
-|                                  | [climate_starter.ipynb](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/climate_starter.ipynb)|
+| Unit 10 - SQL_Alchemy Challenge  | [README.md](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/README.md)  |
+|                                  | [app.py](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/app.py) |
+|                                  | [climate_starter.ipynb](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/climate_starter.ipynb)|
 
 Inside the Employee SQL_Alchemy Challenge Folder, there are the Ouput and Resources folders that stores the following files:
 
 | Folder Name    | File Name |
 | ------------- | ------------- |
-| Output        | [Annual Precipitation.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Annual%20Precipitation.png)|
-|               | [Annual Temperature.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Annual%20Temperature.png)|
-|               | [Daily Normals.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Daily%20Normals.png)  |
-|               | [Trip Average Temperature.png](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Trip%20Average%20Temperature.png)  |
-| Resources   | [hawaii.sqlite](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Resources/hawaii.sqlite)  |
-|             | [hawaii_meaurements.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Resources/hawaii_measurements.csv)  |
-|             | [hawaii_stations.csv](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Resources/hawaii_stations.csv)  |
+| Output        | [Annual Precipitation.png](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Output%20Files/Annual%20Precipitation.png)|
+|               | [Annual Temperature.png](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Output%20Files/Annual%20Temperature.png)|
+|               | [Daily Normals.png](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Output%20Files/Daily%20Normals.png)  |
+|               | [Trip Average Temperature.png](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Output%20Files/Trip%20Average%20Temperature.png)  |
+| Resources   | [hawaii.sqlite](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Resources/hawaii.sqlite)  |
+|             | [hawaii_meaurements.csv](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Resources/hawaii_measurements.csv)  |
+|             | [hawaii_stations.csv](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Resources/hawaii_stations.csv)  |

@@ -6,7 +6,7 @@ After settling in my career as a Data Analyst, I have decided to treat myself to
 
 Python and SQLAlchemy have been used to conduct climate anlysis and data exploration by connecting to the SQLite Database. 
 
-The analysis is completed by using the [Climate Starter Notebook](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/climate_starter.ipynb) and [Hawaii SQLite Database](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Resources/hawaii.sqlite) to obtain climate results using the SQLAlchemy ORM queries, Pandas, and Matplotlib.
+The analysis is completed by using the [Climate Starter Notebook](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/climate_starter.ipynb) and [Hawaii SQLite Database](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Resources/hawaii.sqlite) to obtain climate results using the SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
 
 ### **Precipitation Analysis**
@@ -15,7 +15,7 @@ Before planning any activities, I want to know if the weather is good!  Otherwis
 
 A query have been designed to collect the past 12 months of precipitation data to determine which time of the year have the most rain.
 
-![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Annual%20Precipitation.png)
+![Image](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Output%20Files/Annual%20Precipitation.png)
 
 ### **Station Analysis**
 
@@ -38,12 +38,12 @@ A query have been designed to determine the total number of stations and the mos
 
 Then, a histogram has been created to show the frequency of the range of temperature in Hawaii form the most active station.
 
-![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Annual%20Temperature.png)
+![Image](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Output%20Files/Annual%20Temperature.png)
 
 
 ## **2. - Climate App**
 
-Upon the completion of my initial analysis, a [Flask API file](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/app.py) have been designed for the queries I have developed.  The file can be run on Visual Studio Code.
+Upon the completion of my initial analysis, a [Flask API file](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/app.py) have been designed for the queries I have developed.  The file can be run on Visual Studio Code.
 
 The Flask API have the following routes:
 
@@ -67,7 +67,7 @@ The Flask API have the following routes:
   
 ## **3. - Other Useful Analysis**
 
-I have conducted additonal analysis to make the most out of my trip in the [Climate Starter Notebook](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/climate_starter.ipynb).
+I have conducted additonal analysis to make the most out of my trip in the [Climate Starter Notebook]https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/climate_starter.ipynb).
 
 ### **Temperature Analysis I**
 
@@ -82,7 +82,7 @@ P-value = 0.00036573
 
 Since the p-value is almost 0.0004 , there is a difference in the mean temperatures in June and December.  Paired t-tests are considered more powerful than unpaired t-tests because using the same samples eliminiate variation between the samples that could be caused by anything other than what’s being tested.
 
-Details of the average figures are in the [Climate Starter Notebook](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/climate_starter.ipynb)
+Details of the average figures are in the [Climate Starter Notebook](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/climate_starter.ipynb)
 
 ### **Temperature Analysis II**
 
@@ -90,7 +90,7 @@ My manager have approved my vacation days!  I am off to Hawaii from August 2 to 
 
 The calc_temps function have been created to calculate the min, avg, and max temperatures for my trip.  The below graph shows the range of temperature during August 2 to August 10.
 
-![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Trip%20Average%20Temperature.png)
+![Image](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Output%20Files/Trip%20Average%20Temperature.png)
 
 ### **Daily Rainfall Analysis**
 
@@ -110,7 +110,7 @@ Calculating the the total rainfall per weather station using the previous year's
 
 The daily_normal function was used to calculate the averages for the min, avg, and max temperatures for my trip.  This date string will be in the format %m-%d that will use all historic TOBS that match that date string.
 
-![Image](https://github.com/cecileung1208/Homework/blob/master/Unit%2010%20-%20SQL_Alchemy%20Challenge/Output%20Files/Daily%20Normals.png)
+![Image](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Output%20Files/Daily%20Normals.png)
 
 
 ## **4.  Folders and Directories**

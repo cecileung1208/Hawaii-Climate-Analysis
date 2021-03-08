@@ -1,4 +1,36 @@
-# SQLAlchemy Challenge - Surfs Up!
+# Hawaii Climate Analysis
+
+![Image](http://www.hawaiipictureoftheday.com/wp-content/uploads/2014/01/1490595_604961066218954_1448251652_o-1024x683.jpg)
+
+## Background
+
+The objective of this project is to conduct a climate analysis of Hawaii in order to determine when is the best time to visit.  Data explorations can be done by connecting to the SQLite database provided.  Then, Python and SQL Alchemy can be used to perform the the climate analysis.
+
+## Requirements
+
+1) Line Graph - Plot the precipitation against all the days in a 1 year timeframe
+2) Summary table of the total number of observations for each station
+3) Histogram - Show the frequency of the range of temperature in Hawaii form the most active station
+4) Create Climate Application using flask with the following api routes that returns JSON data:
+    * Homepage - provide summary and links to varous api routes
+    * Precipitation from the previous year
+    * Stations from the datasets
+    * Temperature of Observations (TOBS) from the previous year
+    * Temperature Statistics for Start Date with the minimum temperature, the average temperature, and the max temperature for a given start date of your choice from the               database.
+    * Temperature Statistics for Start Date and End Date with the minimum temperature, the average temperature, and the max temperature for a given start date and end date of         your choice from the database.
+5) Hypothesis Testing of Climate Analysis
+6) Bar Graph showing the average, minimum, nad maximum temperature from chosen vacation dates
+7) Calculating the total precipitation for all available stations from chosen vacation dates
+8) Stacked line graph of the daily normals from chosen vacation dates
+
+
+## Datasets
+
+## Methods
+
+## Scripts
+
+## Results
 
 After settling in my career as a Data Analyst, I have decided to treat myself to a long holiday vacation in Honolulu, Hawaii! To help with my trip planning, I need to do some climate analysis on the area.
 

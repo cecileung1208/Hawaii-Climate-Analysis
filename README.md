@@ -25,6 +25,11 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
 
 ## Datasets
 
+* [Hawaii SQLite Database](https://github.com/cecileung1208/Hawaii-Climate-Analysis/blob/master/Resources/hawaii.sqlite)
+* [Hawaii Climate Measurements CSV](https://github.com/cecileung1208/Hawaii-Climate-Analysis/blob/master/Resources/hawaii_measurements.csv)
+* [Hawaii Station Names CSV](https://github.com/cecileung1208/Hawaii-Climate-Analysis/blob/master/Resources/hawaii_stations.csv)
+
+
 ## Methods
 
 ## Scripts

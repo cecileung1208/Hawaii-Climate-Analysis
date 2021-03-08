@@ -8,11 +8,10 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
 
 ## Requirements
 
-1) Line Graph - Plot the precipitation against all the days in a 1 year timeframe
-2) Summary table of the total number of observations for each station
-3) Histogram - Show the frequency of the range of temperature in Hawaii form the most active station
-4) Create Climate Application using flask with the following api routes that returns JSON data:
-    * Homepage - provide summary and links to varous api routes
+1) Line Graph - Plot the Precipitation vs Dates for 1 Year
+2) Summary Table - Total number of Observations for each Station
+3) Histogram - Frequency Hawaii's Temperature Range from the Most Active Station
+4) Climate Application -  Using Flask to create api routes to return JSON data for the following:
     * Precipitation from the previous year
     * Stations from the datasets
     * Temperature of Observations (TOBS) from the previous year

@@ -32,6 +32,27 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
 
 ## Methods
 
+**Dependencies and Database Connections**
+* Import Dependencies
+* Connect to SQLite Database
+* Retrieve all the table names in the database
+* Create classes for each table
+
+**Line Graph - Plot the Precipitation vs Dates for 1 Year**
+* Retrieve the most recent date from the measurement database
+* Convert information to datetime format to retrieve all the dates from 1 year ago
+* Perform SQL query to filter for all the dates and precipitation in the past year
+* Create Dataframe to store all the information
+* Using the information dataframe, create a line graph using Matplotlib
+
+**Summary Table - Total number of Observations for each Station**
+* Perform SQL query that displays the station id, station name, and number of observations for each station
+* Obtain count of all the stations available
+* Sort by descending order to determine the most active station
+* Calculate the minimum, maximum, and average temperature for the most active station
+
+**Histogram - Frequency Hawaii's Temperature Range from the Most Active Station* 
+* 
 ## Scripts
 
 ## Results

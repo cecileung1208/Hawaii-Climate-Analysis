@@ -110,6 +110,17 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
 * Create a dataframe to see information.
 </details>
 
+<details>
+   <summary><b>Stacked line graph of the daily normals from chosen vacation dates</b></summary>
+   
+* Create a function that calculates the minimum, average, and maximum for all historic data matching a specific day
+* Format the vacation dates to month and day
+* Create a list that stores these dates
+* Create an empty list to store minimum, average and maximum temperature
+* Use the date list to loop through the function to retrieve the temperature results.  Then append them to the empty temperature list.
+* Create pandas dataframe to plot stacked line graph.
+* Plot line graph with the dataframe information
+</details>
 
 ## Scripts
 

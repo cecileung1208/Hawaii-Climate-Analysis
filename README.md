@@ -93,7 +93,15 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
 * Perform t-test to determine if there are any significant differences in the June and December temperatures
 </details>
 
-**Bar Graph showing the average, minimum, and maximum temperature from chosen vacation dates**
+<details>
+   <summary><b>Bar Graph showing the average, minimum, and maximum temperature from chosen vacation dates</b></summary>
+
+* Create a function that returns the minimum, average, and maximum temperature by entering the start and end dates for your vacation.
+* Create another function where it returns the annual average for the previous year data at the same time.
+* Create list to plot the data on a bar graph with an error bar.
+   * The bar graph is the average temperage.
+   * The error bar is the difference between the maximum and minimum temperature.
+</details>
 
 
 ## Scripts

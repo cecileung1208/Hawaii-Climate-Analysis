@@ -33,7 +33,7 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
 ## Methods
 
 <details>
-   <summary><b>Dependencies and Database Connections**</b></summary>
+   <summary><b>Dependencies and Database Connections</b></summary>
    
 * Import Dependencies
 * Connect to SQLite Database
@@ -41,25 +41,36 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
 * Create classes for each table
 </details>
 
-**Line Graph - Plot the Precipitation vs Dates for 1 Year**
+<details>
+   <summary><b>Line Graph - Plot the Precipitation vs Dates for 1 Year</b></summary>
+   
 * Retrieve the most recent date from the measurement database
 * Convert information to datetime format to retrieve all the dates from 1 year ago
 * Perform SQL query to filter for all the dates and precipitation in the past year
 * Create Dataframe to store all the information
 * Using the information from the dataframe, create a line graph using Matplotlib
+</details>
 
-**Summary Table - Total number of Observations for each Station**
+<details>
+   <summary><b>Summary Table - Total number of Observations for each Station</b></summary>
+   
 * Perform SQL query that displays the station id, station name, and number of observations for each station
 * Obtain count of all the stations available
 * Sort by descending order to determine the most active station
 * Calculate the minimum, maximum, and average temperature for the most active station
+</details>
 
-**Histogram - Frequency Hawaii's Temperature Range from the Most Active Station**
+<details>
+   <summary><b>Histogram - Frequency Hawaii's Temperature Range from the Most Active Station</b></summary>
+   
 * Perform SQL query that displays the date and temperature for the most active station for the past year
 * Create Dataframe to store all the information
 * Using the information from the dataframe, create a histogram using Matplotlib
+</details>
 
-**Climate Flask Application**
+<details>
+   <summary><b>Climate Flask Application</b></summary>
+   
 * Using flask, connect to the database in SQLite.
 * Create different routes to display climate and station information in JSON format
 * Perform queries to retreive information 
@@ -72,11 +83,15 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
    * **Note:**  Dates should be entered in the format YYYY-MM-DD.<br/>
       * Example 1 (/api/v1.0/2017-05-01)
       * Example 2 (/api/v1.0/2017-05-01/2017-05-08)
-         
-**Hypothesis Testing of Climate Analysis**
+</details>
+
+<details>
+   <summary><b>Hypothesis Testing of Climate Analysis</b></summary>
+   
 * Perform SQL queries to retrieve average climate information for June
 * Repeat the same process for December
 * Perform t-test to determine if there are any significant differences in the June and December temperatures
+</details>
 
 **Bar Graph showing the average, minimum, and maximum temperature from chosen vacation dates**
 

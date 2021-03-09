@@ -68,15 +68,15 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
    * **Temperature Statistics for Start Date and End Date (/api/v1.0/startdate/enddate)**<br/> - Return a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start date and last date of your choice. 
 
 **Note:**  Dates should be entered in the format YYYY-MM-DD.<br/>
-         Example 1 (/api/v1.0/2017-05-01)<br/>
-         Example 2 (/api/v1.0/2017-05-01/2017-05-08)<br/>
+* Example 1 (/api/v1.0/2017-05-01)
+* Example 2 (/api/v1.0/2017-05-01/2017-05-08)
          
 **Hypothesis Testing of Climate Analysis**
 * Perform SQL queries to retrieve average climate information for June
 * Repeat the same process for December
 * Perform t-test to determine if there are any significant differences in the June and December temperatures
 
-
+**Bar Graph showing the average, minimum, and maximum temperature from chosen vacation dates**
 
 ## Scripts
 

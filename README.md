@@ -43,7 +43,7 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
 * Convert information to datetime format to retrieve all the dates from 1 year ago
 * Perform SQL query to filter for all the dates and precipitation in the past year
 * Create Dataframe to store all the information
-* Using the information dataframe, create a line graph using Matplotlib
+* Using the information from the dataframe, create a line graph using Matplotlib
 
 **Summary Table - Total number of Observations for each Station**
 * Perform SQL query that displays the station id, station name, and number of observations for each station
@@ -51,8 +51,13 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
 * Sort by descending order to determine the most active station
 * Calculate the minimum, maximum, and average temperature for the most active station
 
-**Histogram - Frequency Hawaii's Temperature Range from the Most Active Station* 
-* 
+**Histogram - Frequency Hawaii's Temperature Range from the Most Active Station**
+* Perform SQL query that displays the date and temperature for the most active station for the past year
+* Create Dataframe to store all the information
+* Using the information from the dataframe, create a histogram using Matplotlib
+
+**Hypothesis Testing of Climate Analysis**
+
 ## Scripts
 
 ## Results

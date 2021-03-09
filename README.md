@@ -129,18 +129,9 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
 
 ## Results
 
-## **1. - Climate Analysis and Exploration**
+### Precipitation Analysis
 
-Python and SQLAlchemy have been used to conduct climate anlysis and data exploration by connecting to the SQLite Database. 
-
-The analysis is completed by using the [Climate Starter Notebook](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/climate_starter.ipynb) and [Hawaii SQLite Database](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Resources/hawaii.sqlite) to obtain climate results using the SQLAlchemy ORM queries, Pandas, and Matplotlib.
-
-
-### **Precipitation Analysis**
-
-Before planning any activities, I want to know if the weather is good!  Otherwise, it would be disappointing if I had to cancel any activities because of rain.
-
-A query have been designed to collect the past 12 months of precipitation data to determine which time of the year have the most rain.
+The line graph shows that Hawaii has high precipitation all your round wth 
 
 ![Image](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Output%20Files/Annual%20Precipitation.png)
 
@@ -239,25 +230,3 @@ The daily_normal function was used to calculate the averages for the min, avg, a
 
 ![Image](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Output%20Files/Daily%20Normals.png)
 
-
-## **4.  Folders and Directories**
-
-The below folders have the following files:
-
-| Folder Name    | File Name |
-| ------------- | ------------- |
-| Unit 10 - SQL_Alchemy Challenge  | [README.md](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/README.md)  |
-|                                  | [app.py](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/app.py) |
-|                                  | [climate_starter.ipynb](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/climate_starter.ipynb)|
-
-Inside the Employee SQL_Alchemy Challenge Folder, there are the Ouput and Resources folders that stores the following files:
-
-| Folder Name    | File Name |
-| ------------- | ------------- |
-| Output        | [Annual Precipitation.png](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Output%20Files/Annual%20Precipitation.png)|
-|               | [Annual Temperature.png](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Output%20Files/Annual%20Temperature.png)|
-|               | [Daily Normals.png](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Output%20Files/Daily%20Normals.png)  |
-|               | [Trip Average Temperature.png](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Output%20Files/Trip%20Average%20Temperature.png)  |
-| Resources   | [hawaii.sqlite](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Resources/hawaii.sqlite)  |
-|             | [hawaii_meaurements.csv](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Resources/hawaii_measurements.csv)  |
-|             | [hawaii_stations.csv](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Resources/hawaii_stations.csv)  |

@@ -11,14 +11,14 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
 1) Line Graph - Plot the Precipitation vs Dates for 1 Year
 2) Summary Table - Total number of Observations for each Station
 3) Histogram - Frequency Hawaii's Temperature Range from the Most Active Station
-4) Climate Application -  Using Flask to create api routes to return JSON data for the following:
+4) Climate Flask Application -  Create api routes to return JSON data for the following:
     * Precipitation from the previous year
     * Stations from the datasets
     * Temperature of Observations (TOBS) from the previous year
     * Temperature Statistics for Start Date with the minimum temperature, the average temperature, and the max temperature for a given start date of your choice from the               database.
     * Temperature Statistics for Start Date and End Date with the minimum temperature, the average temperature, and the max temperature for a given start date and end date of         your choice from the database.
 5) Hypothesis Testing of Climate Analysis
-6) Bar Graph showing the average, minimum, nad maximum temperature from chosen vacation dates
+6) Bar Graph showing the average, minimum, and maximum temperature from chosen vacation dates
 7) Calculating the total precipitation for all available stations from chosen vacation dates
 8) Stacked line graph of the daily normals from chosen vacation dates
 
@@ -56,7 +56,27 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
 * Create Dataframe to store all the information
 * Using the information from the dataframe, create a histogram using Matplotlib
 
+**Climate Flask Application**
+* Using flask, connect to the database in SQLite.
+* Create different routes to display climate and station information in JSON format
+* Perform queries to retreive information 
+   * **Home page (/)**<br> - background information and links to all api routes.
+   * **Precipitation (/api/v1.0/precipitation)** <br> - Return a JSON list of all precipitation information of the past year.
+   * **Stations (/api/v1.0/stations)**<br/> - Return a JSON list of stations from the dataset.
+   * **TOBS (/api/v1.0/tobs)** <br/> - Return a JSON list of temperature observations (TOBS) for the previous year.
+   * **Temperature Statistics for Start Date (/api/v1.0/startdate)**<br/> - Return a JSON list of the minimum temperature, the average temperature, and the max temperature for a  given start date of your choice to the last day on the database.
+   * **Temperature Statistics for Start Date and End Date (/api/v1.0/startdate/enddate)**<br/> - Return a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start date and last date of your choice. 
+
+**Note:**  Dates should be entered in the format YYYY-MM-DD.<br/>
+         Example 1 (/api/v1.0/2017-05-01)<br/>
+         Example 2 (/api/v1.0/2017-05-01/2017-05-08)<br/>
+         
 **Hypothesis Testing of Climate Analysis**
+* Perform SQL queries to retrieve average climate information for June
+* Repeat the same process for December
+* Perform t-test to determine if there are any significant differences in the June and December temperatures
+
+
 
 ## Scripts
 

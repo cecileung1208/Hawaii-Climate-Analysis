@@ -18,8 +18,8 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
     * Temperature Statistics for Start Date with the minimum temperature, the average temperature, and the max temperature for a given start date of your choice from the               database.
     * Temperature Statistics for Start Date and End Date with the minimum temperature, the average temperature, and the max temperature for a given start date and end date of         your choice from the database.
 5) Hypothesis Testing of Climate Analysis
-6) Bar Graph showing the average, minimum, and maximum temperature from chosen vacation dates
-7) Calculating the total precipitation for all available stations from chosen vacation dates
+6) Bar Graph showing the average, minimum, and maximum temperature for chosen vacation dates
+7) Calculating the total precipitation for all available stations for chosen vacation dates
 8) Stacked line graph of the daily normals from chosen vacation dates
 
 
@@ -94,13 +94,20 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
 </details>
 
 <details>
-   <summary><b>Bar Graph showing the average, minimum, and maximum temperature from chosen vacation dates</b></summary>
+   <summary><b>Bar Graph showing the average, minimum, and maximum temperature for chosen vacation dates</b></summary>
 
 * Create a function that returns the minimum, average, and maximum temperature by entering the start and end dates for your vacation.
 * Create another function where it returns the annual average for the previous year data at the same time.
 * Create list to plot the data on a bar graph with an error bar.
    * The bar graph is the average temperage.
    * The error bar is the difference between the maximum and minimum temperature.
+</details>
+
+<details>
+   <summary><b>Total precipitation for all available stations for chosen vacation dates</b></summary>
+
+* Create a query to select the station id, station name, latitude, longitude, station elevation and sum of the precipitation for each station.
+* Create a dataframe to see information.
 </details>
 
 

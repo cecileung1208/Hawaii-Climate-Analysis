@@ -66,10 +66,9 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
    * **TOBS (/api/v1.0/tobs)** <br/> - Return a JSON list of temperature observations (TOBS) for the previous year.
    * **Temperature Statistics for Start Date (/api/v1.0/startdate)**<br/> - Return a JSON list of the minimum temperature, the average temperature, and the max temperature for a  given start date of your choice to the last day on the database.
    * **Temperature Statistics for Start Date and End Date (/api/v1.0/startdate/enddate)**<br/> - Return a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start date and last date of your choice. 
-
-**Note:**  Dates should be entered in the format YYYY-MM-DD.<br/>
-* Example 1 (/api/v1.0/2017-05-01)
-* Example 2 (/api/v1.0/2017-05-01/2017-05-08)
+   * **Note:**  Dates should be entered in the format YYYY-MM-DD.<br/>
+      * Example 1 (/api/v1.0/2017-05-01)
+      * Example 2 (/api/v1.0/2017-05-01/2017-05-08)
          
 **Hypothesis Testing of Climate Analysis**
 * Perform SQL queries to retrieve average climate information for June
@@ -77,6 +76,7 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
 * Perform t-test to determine if there are any significant differences in the June and December temperatures
 
 **Bar Graph showing the average, minimum, and maximum temperature from chosen vacation dates**
+
 
 ## Scripts
 

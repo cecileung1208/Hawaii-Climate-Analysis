@@ -124,9 +124,10 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
 
 ## Scripts
 
-## Results
+* [Climate Analysis Notebook](https://github.com/cecileung1208/Hawaii-Climate-Analysis/blob/master/climate_starter.ipynb)
+* [Climate Flask Application](https://github.com/cecileung1208/Hawaii-Climate-Analysis/blob/master/app.py)
 
-After settling in my career as a Data Analyst, I have decided to treat myself to a long holiday vacation in Honolulu, Hawaii! To help with my trip planning, I need to do some climate analysis on the area.
+## Results
 
 ## **1. - Climate Analysis and Exploration**
 

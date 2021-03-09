@@ -32,11 +32,14 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
 
 ## Methods
 
-**Dependencies and Database Connections**
+<details>
+   <summary><b>Dependencies and Database Connections**</b></summary>
+   
 * Import Dependencies
 * Connect to SQLite Database
 * Retrieve all the table names in the database
 * Create classes for each table
+</details>
 
 **Line Graph - Plot the Precipitation vs Dates for 1 Year**
 * Retrieve the most recent date from the measurement database

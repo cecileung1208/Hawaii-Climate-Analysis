@@ -131,9 +131,15 @@ The objective of this project is to conduct a climate analysis of Hawaii in orde
 
 ### Precipitation Analysis
 
-The line graph shows that Hawaii has high precipitation all your round wth 
+* The average precipiation for the year is around 1.75 inches of rain.  
+* The maximum precipitation is 6.7 inches around early September. The graphs show that there are more rainfalls around this period of time than the rest of the year. 
+* Another time that rains a lot is during spring in the month of April.
+* Average precipitaiton tends to be lower in June and October.
+<p float="left">
+  <img src="https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Output%20Files/Annual%20Precipitation.png" width="700">
+  <img src="https://github.com/cecileung1208/Hawaii-Climate-Analysis/blob/master/Output%20Files/Precipitation%20Stats.png" width="100"> 
+</p>
 
-![Image](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Output%20Files/Annual%20Precipitation.png)
 
 ### **Station Analysis**
 

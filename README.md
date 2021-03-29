@@ -164,35 +164,7 @@ Then, a histogram has been created to show the frequency of the range of tempera
 ![Image](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Output%20Files/Annual%20Temperature.png)
 
 
-## **2. - Climate App**
-
-Upon the completion of my initial analysis, a [Flask API file](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/app.py) have been designed for the queries I have developed.  The file can be run on Visual Studio Code.
-
-The Flask API have the following routes:
-
-
-* **Home page (/)**
-
-* **Precipitation (/api/v1.0/precipitation)**<br/> - Return a JSON list of all precipitation information of the past year.
-    
-* **Stations (/api/v1.0/stations)**<br/> - Return a JSON list of stations from the dataset.
-  
-* **TOBS (/api/v1.0/tobs)** <br/> - Return a JSON list of temperature observations (TOBS) for the previous year.
-  
-* **Temperature Statistics for Start Date (/api/v1.0/startdate)**<br/> - Return a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start date of your choice to the last day on the database.
-  
-* **Temperature Statistics for Start Date and End Date (/api/v1.0/startdate/enddate)**<br/> - Return a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start date and last date of your choice. 
-  
-  **Note:**  Dates should be entered in the format YYYY-MM-DD.<br/>
-         Example 1 (/api/v1.0/2017-05-01)<br/>
-         Example 2 (/api/v1.0/2017-05-01/2017-05-08)<br/>
-         
-  
-## **3. - Other Useful Analysis**
-
-I have conducted additonal analysis to make the most out of my trip in the [Climate Starter Notebook](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/climate_starter.ipynb).
-
-### **Temperature Analysis I**
+### **Hypothesis Testing of Climate Analysis**
 
 Analysis have been conducted by determining the averages of June an December for all stations across all available years in the dataset. 
 
@@ -205,7 +177,6 @@ P-value = 0.00036573
 
 Since the p-value is almost 0.0004 , there is a difference in the mean temperatures in June and December.  Paired t-tests are considered more powerful than unpaired t-tests because using the same samples eliminiate variation between the samples that could be caused by anything other than what’s being tested.
 
-Details of the average figures are in the [Climate Starter Notebook](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/climate_starter.ipynb)
 
 ### **Temperature Analysis II**
 

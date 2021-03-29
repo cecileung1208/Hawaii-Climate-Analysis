@@ -180,17 +180,15 @@ Since the p-value is almost 0.0004 , there is a difference in the mean temperatu
 
 ### **Temperature Analysis II**
 
-My manager have approved my vacation days!  I am off to Hawaii from August 2 to August 10 and will be having lots of fun in the sun!!
+The function  to calculate the min, avg, and max temperatures for my trip.  The below graph shows the range of temperature during August 2 to August 10.
 
-The calc_temps function have been created to calculate the min, avg, and max temperatures for my trip.  The below graph shows the range of temperature during August 2 to August 10.
+In this bar graph, it shows that the temperature chosen for the vacation dates, August 2-10, is quite hot during the summer time.
 
 ![Image](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Output%20Files/Trip%20Average%20Temperature.png)
 
 ### **Daily Rainfall Analysis**
 
-Calculating the the total rainfall per weather station using the previous year's matching dates for my trip.
-
-
+The precipitaiton at the beginning of August is relatively low as per the results from the weather stations.
 
 |Station ID| Station Name | Latitude | Longitude | Elevation | Total Rainfall|
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -202,7 +200,7 @@ Calculating the the total rainfall per weather station using the previous year's
 
 ### **Daily Normals**
 
-The daily_normal function was used to calculate the averages for the min, avg, and max temperatures for my trip.  This date string will be in the format %m-%d that will use all historic TOBS that match that date string.
+The temperatures here show that the temperature is quite warm and barely any fluctuations in the temperature.
 
 ![Image](https://github.com/cecileung1208/SQLAlchemy-Surfs-Up/blob/master/Output%20Files/Daily%20Normals.png)
 
